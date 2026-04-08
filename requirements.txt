@@ -1,0 +1,31 @@
+# ══════════════════════════════════════════════════════════════
+# PyStreamlit Converter Pro — Requirements
+# ══════════════════════════════════════════════════════════════
+# Install:  pip install -r requirements.txt
+# Run:      streamlit run app.py
+
+# ── Core ────────────────────────────────────────────────────
+streamlit>=1.32.0
+nbformat>=5.9.2
+
+# ── AST / Code Utilities ────────────────────────────────────
+astor>=0.8.1           # Python < 3.9 fallback (ast.unparse)
+
+# ── Data & Visualisation (for sample files & analysis) ──────
+pandas>=2.0.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+altair>=5.2.0
+
+# ── Machine Learning (optional) ─────────────────────────────
+scikit-learn>=1.4.0
+# xgboost>=2.0.0       # uncomment if needed
+# lightgbm>=4.0.0      # uncomment if needed
+# torch>=2.0.0         # uncomment if needed
+# tensorflow>=2.15.0   # uncomment if needed
+
+# ── Standard Library (no install needed) ────────────────────
+# difflib, ast, re, io, hashlib, zipfile, pathlib,
+# textwrap, collections, datetime — all stdlib
