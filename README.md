@@ -5,8 +5,6 @@
 
 ---
 
--ACCESS LINK: https://huggingface.co/spaces/Jack-ki1/python_to_streamlit_convertor
-
 ## ✨ Features
 
 | Feature | Description |
